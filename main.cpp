@@ -116,13 +116,13 @@ router.storeLogicalAddressInTable();
 //  action 3: Perform NAT when sending request outside the home network
 router.changeSourceIpAndStoreInTable()
 //  9)
-//  Noun: Microwave
-//  action 1: Heat food
-microwave.produceMicroWaves();
-//  action 2: Turn on light when the microwave door is open
-microwave.illuminateWhenDoorIsOpen();
-//  action 3: Play sound when the microwave is finished heating up food
-microwave.playSoundWhenTimerHitsZero();
+//  Noun: Traffic Light
+//  action 1: Turn on light to indicate that cars can go
+trafficLight.turnOnGreenLight();
+//  action 2: Turn on light to indicate cars should slow down
+trafficLight.turnOnYellowLight();
+//  action 3: Turn on light to indicate cars should stop
+trafficLight.turnOnRedLight();
 //  10)
 //  Noun: car
 //  action 1: Turn on the turn signal
