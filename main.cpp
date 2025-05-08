@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Computer
+//  action 1: Activate power supply to supply power to components
+computer.activatePowerSupply();
+//  action 2: Run POST to check hardware
+computer.runPOST();
+//  action 3: Run power off process to shut down the computer
+computer.runPowerOffSteps();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Dog
+//  action 1: The dog barks
+dog.bark();
+//  action 2: The dog can fetch
+dog.fetch();
+//  action 3: The dog can sit
+dog.sit();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Keyboard (instrument)
+//  action 1: Produce sound when a key is played
+keyboard.playNote();
+//  action 2: Raise the volume
+keyboard.increaseVolume();
+//  action 3: Lower volume
+keyboard.decreaseVolume();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Guitar
+//  action 1: Play a note by vibrating the string
+guitar.vibrateString();
+//  action 2: Tune a string up by winding the tuning peg
+guitar.tightenString();
+//  action 3: Tune a string down by winding the tuning peg
+guitar.losenString();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Electronic Drum Set
+//  action 1: Produce soft sound from kick drum when hit softly
+electronicDrumSet.playKickDrumSoft();
+//  action 2: Produce loud sound when kick drum is hit with force
+electronicDrumSet.playKickDrumHard();
+//  action 3: Change the sound of the kit from a list of different kits
+electronicDrumSet.selectNextKit();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Cat
+//  action 1: A cat can extend their claws when they stretch
+cat.extendClawDuringStretch();
+//  action 2: A cat can meow
+cat.meow();
+//  action 3: A cat can pounce on your defensless arm
+cat.stareIntenselyThenPounce();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Hard drive
+//  action 1: Write to disk cache
+hardDrive.writeToDiskCache();
+//  action 2: Write from disk cache to hard drive
+hardDrive.writeFromCacheToDisk();
+//  action 3: Erase the disk cache
+hardDrive.flushDiskCache();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Home Router
+//  action 1: Store the MAC address of a device
+router.storePhysicalAddressInTable();
+//  action 2: Store the IP address of a device
+router.storeLogicalAddressInTable();
+//  action 3: Perform NAT when sending request outside the home network
+router.changeSourceIpAndStoreInTable()
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Traffic Light
+//  action 1: Turn on light to indicate that cars can go
+trafficLight.turnOnGreenLight();
+//  action 2: Turn on light to indicate cars should slow down
+trafficLight.turnOnYellowLight();
+//  action 3: Turn on light to indicate cars should stop
+trafficLight.turnOnRedLight();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: car
+//  action 1: Turn on the turn signal
+car.turnOnTurnSignal();
+//  action 2: Alert Driver of object in blind side
+car.alertWhenObjectInBlindSide();
+//  action 3: Turn on rear view camera
+car.displayRearCamera();
 
 
 #endif
